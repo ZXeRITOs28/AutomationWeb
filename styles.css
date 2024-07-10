@@ -1,0 +1,16 @@
+/* styles.css */
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex; /* Muestra las imágenes en una línea horizontal */
+    transition: transform 0.5s ease; /* Efecto de transición */
+}
+
+.slides img {
+    width: 100%; /* Ajusta el tamaño de las imágenes al contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
+}
